@@ -14,6 +14,12 @@
 
 <h2>How does it work?</h2>
 <p> 
-   Client sends credentials(username and password) to the server, then server validates credentials and creates Token and sends it back to the client. Now client uses this token for each request and server validates this token whenever a new request from that client is recieved.
-   You can find more inforamtion here: https://github.com/jwtk/jjwt#overview
+   <ul>
+     <li>Client sends credentials(username and password)</li>
+     <li>Server validates credentials</li>
+     <li>Server create a Token and sends it back to the client</li>
+     <li>Client Uses this Token for each request</li>
+     <li>Server validates this token everytime when teh client makes a request</li>
+   </ul>
+   You can find full documentation here: https://github.com/jwtk/jjwt#overview
 </p>
