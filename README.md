@@ -17,9 +17,9 @@
    <ul>
      <li>Client sends credentials(username and password)</li>
      <li>Server validates credentials</li>
-     <li>Server create a Token and sends it back to the client</li>
-     <li>Client Uses this Token for each request</li>
-     <li>Server validates this token everytime when teh client makes a request</li>
+     <li>Server creates a Token and sends it back to the client</li>
+     <li>Client uses this Token for each request</li>
+     <li>Server validates this token everytime when the client makes a request</li>
    </ul>
    You can find full documentation here: https://github.com/jwtk/jjwt#overview
 </p>
